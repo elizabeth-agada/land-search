@@ -22,10 +22,9 @@ body {
   border-radius: 10px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   width: 350px;
-  max-width: 90%; /* Responsive width */
+  max-width: 90%;
 }
 
-/* Form styling */
 .form-group {
   margin-bottom: 20px;
 }
@@ -78,7 +77,6 @@ grid-template-columns: auto auto;
 gap: 10px;
 }
 
-/* Utility class */
 .hidden {
   display: none;
 }
