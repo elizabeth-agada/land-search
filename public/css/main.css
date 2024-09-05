@@ -6,6 +6,79 @@ label {
   display: block;
 }
 
-.navbar {
-  min-height: 115px;
+body {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background-color: #f4f4f4;
+}
+
+.container {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 350px;
+  max-width: 90%; /* Responsive width */
+}
+
+/* Form styling */
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  margin-bottom: 10px;
+  display: block;
+}
+
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+#button1[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+
+#button1[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+#button2[type="submit"] {
+  background-color: #b92308;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+
+#button2[type="submit"]:hover {
+  background-color: #9e2f2b;
+}
+
+#grid {
+display: grid;
+grid-template-columns: auto auto;
+gap: 10px;
+}
+
+/* Utility class */
+.hidden {
+  display: none;
 }
